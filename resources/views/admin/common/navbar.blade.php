@@ -2,10 +2,10 @@
     <a href="index.html" class="logo">
        <!-- Logo -->
        <span class="logo-mini">
-       <img src="{{asset('adminassets/dist/img/mini-logo.png')}}" alt="">
+       <img src="{{asset('adminFiles/assets/dist/img/mini-logo.png')}}" alt="">
        </span>
        <span class="logo-lg">
-       <img src="{{asset('admin/assets/dist/img/logo.png')}}" alt="">
+       <img src="{{asset('adminFiles/assets/dist/img/logo.png')}}" alt="">
        </span>
     </a>
     <!-- Header Navbar -->
@@ -29,7 +29,7 @@
              <!-- user -->
              <li class="dropdown dropdown-user">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="{{asset('admin/assets/dist/img/avatar5.png')}}" class="img-circle" width="45" height="45" alt="user"></a>
+                <img src="{{asset('adminFiles/assets/dist/img/avatar5.png')}}" class="img-circle" width="45" height="45" alt="user"></a>
                 <ul class="dropdown-menu" >
                    <li>
                       <a href="profile.html">
