@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,4 +25,5 @@ Route::prefix('admin')->group(function () {
     Route::match(['get','post'],'/login',[AuthController::class,'login'])->name('login');
     Route::match(['get','post'],'/register',[AuthController::class,'register'])->name('register');
     Route::get('/dashboard',[AuthController::class,'dashboard'])->name('dashboard');
+    Route::match(['get', 'post'], '/addProduct',[ProductController::class,'addProduct'])->name('addProduct');
 });
