@@ -20,18 +20,17 @@
         <!--<link href="('adminFiles/assets/dist/css/stylecrm-rtl.css" rel="stylesheet" type="text/css"/>-->
     </head>
     <body>
-        <!-- Content Wrapper -->
         <div class="login-wrapper">
-            <div class="back-link">
-                <a href="index.html" class="btn btn-add">Back to Dashboard</a>
-            </div>
+
             <div class="container-center lg">
+                @include('admin.common.message')
              <div class="login-area">
                 <div class="panel panel-bd panel-custom">
                     <div class="panel-heading">
                         <div class="view-header">
                             <div class="header-icon">
                                 <i class="pe-7s-unlock"></i>
+ 
                             </div>
                             <div class="header-title">
                                 <h3>Register</h3>
@@ -40,32 +39,29 @@
                         </div>
                     </div>
                     <div class="panel-body">
-                        <form action="http://thememinister.com/crm/index.html" id="loginForm" novalidate>
+                        <form action="{{route('register')}}" method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="form-group col-lg-6">
                                     <label>Username</label>
-                                    <input type="text" value="" id="username" class="form-control" name="username">
-                                    <span class="help-block small">Your unique username to app</span>
-                                </div>
+                                    <input type="text" id="username" class="form-control" name="name" required>
+                                </div><div></div>
                                 <div class="form-group col-lg-6">
                                     <label>Password</label>
-                                    <input type="password" value="" id="password" class="form-control" name="password">
-                                    <span class="help-block small">Your hard to guess password</span>
+                                    <input type="password"  id="password" class="form-control" name="password" required>
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label>Repeat Password</label>
-                                    <input type="password" value="" id="repeatpassword" class="form-control" name="repeatpassword">
-                                    <span class="help-block small">Please repeat your pasword</span>
+                                    <input type="password" class="form-control" name="password_confirmation" required>
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label>Email Address</label>
-                                    <input type="text" value="" id="email" class="form-control" name="email">
-                                    <span class="help-block small">Your address email to contact</span>
+                                    <input type="email" class="form-control" name="email" required>
                                 </div>
                             </div>
                             <div>
-                                <button class="btn btn-warning">Register</button>
-                                <a class="btn btn-add" href="login.html">Login</a>
+                                <button type="submit" class="btn btn-warning">Register</button>
+                                <a class="btn btn-add" href="{{route('login')}}">Login</a>
                             </div>
                         </form>
                         </div>

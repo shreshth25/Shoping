@@ -16,14 +16,13 @@ class AuthController extends Controller
     {
         if($request->isMethod('post'))
         {
-            $data = $request->input();
-            if(Auth::attempt(['email' => $data->email, 'password' => $data->password]))
+            if(Auth::attempt(['email' => $request->email, 'password' => $request->password]))
             {
-                return view('admin.dashboard');
+                return redirect()->back()->with('success','Good to go');
             }
             else
             {
-                return view('admin.login')->with('error','Invalid username or password');
+                return redirect()->back()->with('error','Invalid username or password');
             }
         }
         return view('admin.login');
@@ -31,12 +30,14 @@ class AuthController extends Controller
 
     public function register(Request $request)
     {
+
         if($request->isMethod('post'))
         {
             $request->validate([
-                "name" => $request->name,
-                "password" => $request->password,
-                "email" =>$request->email,
+                'name' => 'required | min:6 | max: 20',
+                'email' => 'required|unique:users',
+                'password' => 'required| min:4| max:7 |confirmed',
+                'password_confirmation' => 'required| min:4'
             ]);
             try
             {
@@ -46,13 +47,19 @@ class AuthController extends Controller
                     "email"=>$request->email??"",
                 ];
                 User::create($formData);
-                return view('admin.login')->with('success','Good to go');
+                return view('admin.login',['success','Good to go']);
             }
             catch(Exception $e)
             {
-                return view('admin.register')->with('error','Invalid username or password');
+                return redirect()->back()->with('error',$e->getMessage());
             }
         }
         return view('admin.register');
+    }
+
+
+    public function dashboard()
+    {
+        return view('admin.dashboard');
     }
 }
