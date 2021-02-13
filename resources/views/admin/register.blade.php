@@ -25,8 +25,8 @@
             <div class="back-link">
                 <a href="index.html" class="btn btn-add">Back to Dashboard</a>
             </div>
-            <div class="container-center">
-            <div class="login-area">
+            <div class="container-center lg">
+             <div class="login-area">
                 <div class="panel panel-bd panel-custom">
                     <div class="panel-heading">
                         <div class="view-header">
@@ -34,30 +34,42 @@
                                 <i class="pe-7s-unlock"></i>
                             </div>
                             <div class="header-title">
-                                <h3>Login</h3>
-                                <small><strong>Please enter your credentials to login.</strong></small>
+                                <h3>Register</h3>
+                                <small><strong>Please enter your data to register.</strong></small>
                             </div>
                         </div>
                     </div>
                     <div class="panel-body">
                         <form action="http://thememinister.com/crm/index.html" id="loginForm" novalidate>
-                            <div class="form-group">
-                                <label class="control-label" for="username">Username</label>
-                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
-                                <span class="help-block small">Your unique username to app</span>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" for="password">Password</label>
-                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Your strong password</span>
+                            <div class="row">
+                                <div class="form-group col-lg-6">
+                                    <label>Username</label>
+                                    <input type="text" value="" id="username" class="form-control" name="username">
+                                    <span class="help-block small">Your unique username to app</span>
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Password</label>
+                                    <input type="password" value="" id="password" class="form-control" name="password">
+                                    <span class="help-block small">Your hard to guess password</span>
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Repeat Password</label>
+                                    <input type="password" value="" id="repeatpassword" class="form-control" name="repeatpassword">
+                                    <span class="help-block small">Please repeat your pasword</span>
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label>Email Address</label>
+                                    <input type="text" value="" id="email" class="form-control" name="email">
+                                    <span class="help-block small">Your address email to contact</span>
+                                </div>
                             </div>
                             <div>
-                                <button class="btn btn-add">Login</button>
-                                <a class="btn btn-warning" href="register.html">Register</a>
+                                <button class="btn btn-warning">Register</button>
+                                <a class="btn btn-add" href="login.html">Login</a>
                             </div>
                         </form>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -69,7 +69,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
-                <a class="navbar-brand" href="index.html"><img src="{{asset('customer/images/logo.png')}}" class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="{{asset('customerFiles/images/logo.png')}}" class="logo" alt=""></a>
             </div>
             <!-- End Header Navigation -->
 
@@ -169,17 +169,17 @@
             <li class="cart-box">
                 <ul class="cart-list">
                     <li>
-                        <a href="#" class="photo"><img src="{{asset('customer/images/img-pro-01.jpg')}}" class="cart-thumb" alt="" /></a>
+                        <a href="#" class="photo"><img src="{{asset('customerFiles/images/img-pro-01.jpg')}}" class="cart-thumb" alt="" /></a>
                         <h6><a href="#">Delica omtantur </a></h6>
                         <p>1x - <span class="price">$80.00</span></p>
                     </li>
                     <li>
-                        <a href="#" class="photo"><img src="{{asset('customer/images/img-pro-02.jpg')}}" class="cart-thumb" alt="" /></a>
+                        <a href="#" class="photo"><img src="{{asset('customerFiles/images/img-pro-02.jpg')}}" class="cart-thumb" alt="" /></a>
                         <h6><a href="#">Omnes ocurreret</a></h6>
                         <p>1x - <span class="price">$60.00</span></p>
                     </li>
                     <li>
-                        <a href="#" class="photo"><img src="{{asset('customer/images/img-pro-03.jpg')}}" class="cart-thumb" alt="" /></a>
+                        <a href="#" class="photo"><img src="{{asset('customerFiles/images/img-pro-03.jpg')}}" class="cart-thumb" alt="" /></a>
                         <h6><a href="#">Agam facilisis</a></h6>
                         <p>1x - <span class="price">$40.00</span></p>
                     </li>
@@ -212,7 +212,7 @@
 <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
         <li class="text-left">
-            <img src="{{asset('customer/images/banner-01.jpg')}}" alt="">
+            <img src="{{asset('customerFiles/images/banner-01.jpg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -224,7 +224,7 @@
             </div>
         </li>
         <li class="text-center">
-            <img src="{{asset('customer/images/banner-02.jpg')}}" alt="">
+            <img src="{{asset('customerFiles/images/banner-02.jpg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -236,7 +236,7 @@
             </div>
         </li>
         <li class="text-right">
-            <img src="{{asset('customer/images/banner-03.jpg')}}" alt="">
+            <img src="{{asset('customerFiles/images/banner-03.jpg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -261,31 +261,31 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/t-shirts-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/t-shirts-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">T-shirts</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/shirt-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/shirt-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">Shirt</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/wallet-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/wallet-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">Wallet</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/women-bag-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/women-bag-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">Bags</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/shoes-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/shoes-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">Shoes</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="{{asset('customer/images/women-shoes-img.jpg')}}" alt="" />
+                    <img class="img-fluid" src="{{asset('customerFiles/images/women-shoes-img.jpg')}}" alt="" />
                     <a class="btn hvr-hover" href="#">Women Shoes</a>
                 </div>
             </div>
@@ -324,7 +324,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="{{asset('customer/images/img-pro-01.jpg')}}" class="img-fluid" alt="Image">
+                        <img src="{{asset('customerFiles/images/img-pro-01.jpg')}}" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -347,7 +347,7 @@
                         <div class="type-lb">
                             <p class="new">New</p>
                         </div>
-                        <img src="{{asset('customer/images/img-pro-02.jpg')}}" class="img-fluid" alt="Image">
+                        <img src="{{asset('customerFiles/images/img-pro-02.jpg')}}" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -370,7 +370,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="{{asset('customer/images/img-pro-03.jpg')}}" class="img-fluid" alt="Image">
+                        <img src="{{asset('customerFiles/images/img-pro-03.jpg')}}" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -393,7 +393,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="{{asset('customer/images/img-pro-04.jpg')}}" class="img-fluid" alt="Image">
+                        <img src="{{asset('customerFiles/images/img-pro-04.jpg')}}" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -429,7 +429,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="{{asset('customer/images/blog-img.jpg')}}" alt="" />
+                        <img class="img-fluid" src="{{asset('customerFiles/images/blog-img.jpg')}}" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">
@@ -447,7 +447,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="{{asset('customer/images/blog-img-01.jpg')}}" alt="" />
+                        <img class="img-fluid" src="{{asset('customerFiles/images/blog-img-01.jpg')}}" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">
@@ -465,7 +465,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="{{asset('customer/images/blog-img-02.jpg')}}" alt="" />
+                        <img class="img-fluid" src="{{asset('customerFiles/images/blog-img-02.jpg')}}" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">
@@ -491,7 +491,7 @@
     <div class="main-instagram owl-carousel owl-theme">
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-01.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-01.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -499,7 +499,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-02.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-02.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -507,7 +507,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-03.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-03.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -515,7 +515,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-04.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-04.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -523,7 +523,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-05.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-05.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -531,7 +531,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-06.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-06.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -539,7 +539,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-07.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-07.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -547,7 +547,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-08.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-08.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -555,7 +555,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-09.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-09.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -563,7 +563,7 @@
         </div>
         <div class="item">
             <div class="ins-inner-box">
-                <img src="{{asset('customer/images/instagram-img-05.jpg')}}" alt="" />
+                <img src="{{asset('customerFiles/images/instagram-img-05.jpg')}}" alt="" />
                 <div class="hov-in">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>

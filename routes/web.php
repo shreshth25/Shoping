@@ -21,5 +21,6 @@ Route::get('/',function(){
 });
 
 Route::prefix('admin')->group(function () {
-    Route::get('/login',[AuthController::class,'login'])->name('login');
+    Route::match(['get','post'],'/login',[AuthController::class,'login'])->name('login');
+    Route::match(['get','post'],'/register',[AuthController::class,'register'])->name('register');
 });
